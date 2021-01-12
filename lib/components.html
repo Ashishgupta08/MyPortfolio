@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Welcome to my first component library</h1>
+    <p>Created By - Ashish Gupta</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>Biggest heading</h1>
+    <h2>2nd biggest heading</h2>
+    <p>Noormal text for the paragraph content</p>
+    <small>Smaller text than aboove.</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>Fluid container</h3>
+    <div class="container">This is a fluid container and will go to the end of the page.</div>
+
+    <h3>Center container</h3>
+    <div class="container container-center">This is a centered conatiner and it will go till the specific width.</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a href="/" class="link link-primary">Primary Link</a>
+    <a href="/" class="link link-secondary">Secondary Link</a>
+    
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered lists</h3>
+    <p>unordered list without bullets</p>
+    <ul class="list-non-bullets">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <h3>unordered inline lists</h3>
+    <ul class="list-non-bullets">
+        <li class="list-item-inline">Inline item One</li>
+        <li class="list-item-inline">Inline item Two</li>
+        <li class="list-item-inline">Inline item Three</li>
+    </ul>
+     
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+        <li>Three</li>
+        <li>Two</li>
+        <li>One</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation">
+        <div class="brand">BrandName</div>
+        <ul class="list-non-bullets nav-pills">
+            <li class="list-item-inline"><a href="/" class="link-active">Home</a></li>
+            <li class="list-item-inline"><a href="/">Products</a></li>
+            <li class="list-item-inline"><a href="/">About</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="head">
+        <img src="/images/profile.svg" alt="image" class="head-img"/>
+        <h1 class="head-heading">Heading <span class="head-span">inside</span> header</h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>this will have white background</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>gray section</h1>
+            <p>this will have gray background</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    
+    <footer class="footer">
+        <div class="footer-header">Some content for the footer</div>
+        <ul class="social-links list-non-bullets">
+            <li class="list-item-inline"><a href="/">socialOne</a></li>
+            <li class="list-item-inline" ><a href="/">socialtwo</a></li>
+            <li class="list-item-inline"><a href="/">socialThree</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
