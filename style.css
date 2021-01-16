@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root{
-    --primary-color: #34D399;
+    --primary-color: #10B981;
     --dark-gray: #6B7280;
-    --off-white: #F3F4F6;
+    --off-white: #EBFBF5;
 }
 
 body{
@@ -128,6 +128,8 @@ text-align: right;
     padding: 2rem 0rem;
     text-align: center;
     color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 
 .footer ul li a{
