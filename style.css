@@ -96,6 +96,12 @@ text-align: right;
     margin: auto;
 }
 
+.head-img-secondary{
+    max-width:250px;
+    display: block;
+    margin: auto;
+}
+
 .head-heading{
     padding-top: 1rem;
     font-size: 2rem;
@@ -114,7 +120,7 @@ text-align: right;
 }
 
 .section h1 {
-    text-align: center;
+    text-align: left;
 }
 
 .ow{
@@ -128,8 +134,8 @@ text-align: right;
     padding: 2rem 0rem;
     text-align: center;
     color: white;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
 }
 
 .footer ul li a{
